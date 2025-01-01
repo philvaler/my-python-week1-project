@@ -1,6 +1,6 @@
 # Task 1: Interactive User Input: Create a script that 1) Asks for the user's name, age, and location, 2) Stores the inputs in variables.
 name = input("What is your name? ").title() # the variable `name` has the user input their name. Then, the `.title()` capitalizes the first letter.
-age_string = str(input("How old are you? "))   # the variable `age` has the user input their age. Then, it takes the int and modifies to a string.
+age_string = (input("How old are you? "))   # the variable `age` has the user input their age. `Input` always is saved as a string. So no need to worry about int.
 location = input("Where in the world do you live? ")    # the `location` variable has the user input their location.
 
 # Task 2: Formatted Output: Use f-strings to neatly print a summary
@@ -26,3 +26,6 @@ except ValueError:
 
 years_to_100 = 100 - age_integer
 print(f"Want to hear something crazy? In {years_to_100}, you will be 100 years old!")
+
+# This is a test commit
+print("Testing Git setup with user_summary.py")
